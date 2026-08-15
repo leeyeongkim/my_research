@@ -14,9 +14,9 @@ cv:
 
   sections:
     Research Interests:
-      - My PhD thesis focuses on matter-wave scattering (4He and D2) with thermal-energy atoms incident on surfaces at extremely small incidence angles. This approach enables the study of the atom-surface dispersion potential by accessing a kinetic-energy range of 2-100 neV. We demonstrated fundamental optical principles -- Babinet's principle and the reciprocity theorem -- in the context of matter waves, and discovered a new non-destructive reflection mechanism, multiple edge-diffraction reflection.
-      - In addition, I actively contributed to molecular deflection experiments using a counter-propagating, non-resonant laser pulse and a pulsed molecular beam. The deflected molecules were ionized and detected using velocity map imaging mass spectrometry. I mainly focused on molecular trajectory simulations, considering the rotational-state-dependent polarization of molecules in laser fields.
-      - Motivated by these experiences, I am interested in quantum optics, quantum phenomena on solid surfaces, dispersive interactions between materials, and AMO physics such as laser cooling, trapping, and precision spectroscopy.
+      - bullet: My PhD thesis focuses on matter-wave scattering (4He and D2) with thermal-energy atoms incident on surfaces at extremely small incidence angles. This approach enables the study of the atom-surface dispersion potential by accessing a kinetic-energy range of 2-100 neV. We demonstrated fundamental optical principles -- Babinet's principle and the reciprocity theorem -- in the context of matter waves, and discovered a new non-destructive reflection mechanism, multiple edge-diffraction reflection.
+      - bullet: In addition, I actively contributed to molecular deflection experiments using a counter-propagating, non-resonant laser pulse and a pulsed molecular beam. The deflected molecules were ionized and detected using velocity map imaging mass spectrometry. I mainly focused on molecular trajectory simulations, considering the rotational-state-dependent polarization of molecules in laser fields.
+      - bullet: Motivated by these experiences, I am interested in quantum optics, quantum phenomena on solid surfaces, dispersive interactions between materials, and AMO physics such as laser cooling, trapping, and precision spectroscopy.
 
     Education:
       - institution: Ulsan National Institute of Science and Technology (UNIST)
@@ -25,8 +25,8 @@ cv:
         location: Ulsan, Korea
         start_date: 2016-03
         end_date: 2022-08
-        summary: "Advisor: Prof. Bum Suk Zhao. Dissertation: \"Study on matter-wave optics under grazing incidence condition with solid surfaces.\""
         highlights:
+          - "Advisor: Prof. Bum Suk Zhao. Dissertation: \"Study on matter-wave optics under grazing incidence condition with solid surfaces.\""
           - "Grade: 4.02/4.3"
       - institution: Ulsan National Institute of Science and Technology (UNIST)
         area: "Physics (Minor: Energy Engineering)"
@@ -37,7 +37,7 @@ cv:
         highlights:
           - "Grade: 3.60/4.3"
 
-    Academic Experience:
+    Experience:
       - company: University of Vienna
         position: Postdoctoral Researcher
         location: Vienna, Austria
@@ -72,206 +72,171 @@ cv:
         summary: "Research advisor: Prof. Bum Suk Zhao"
 
     Funding and Fellowships:
-      - name: "quantA Postdoctoral Fellowship: Empowering Women in Quantum Science"
-        start_date: 2026
-        end_date: 2027
-        summary: quantA
-      - name: Global Ph.D. Fellowship
-        start_date: 2017
-        end_date: 2021
-        summary: "The Korean Government -- acceptance rate 7.6:1"
-      - name: Global Internship Program Scholarship
-        start_date: 2014-07
-        end_date: 2014-11
-        summary: The Korean Government
+      - bullet: "**2026-2027** -- quantA Postdoctoral Fellowship: Empowering Women in Quantum Science (quantA)"
+      - bullet: "**2017-2021** -- Global Ph.D. Fellowship, The Korean Government (acceptance rate 7.6:1)"
+      - bullet: "**Jul.-Nov. 2014** -- Global Internship Program Scholarship, The Korean Government"
 
-    Awards and Honors:
-      - name: "Seal of Excellence, Marie Skłodowska-Curie Actions Postdoctoral Fellowship"
+    Honors and Awards:
+      # `authors: []` is a no-op for the website (awards.liquid never reads it) but keeps
+      # this entry a valid RenderCV PublicationEntry for the PDF-generation workflow,
+      # since `title` is otherwise only a Publication field there.
+      - title: "Seal of Excellence, Marie Skłodowska-Curie Actions Postdoctoral Fellowship"
+        awarder: European Commission
         date: 2026-02
-        summary: "European Commission -- proposal score 95.8/100"
-      - name: UNIST Best Research Award
+        summary: "Proposal score: 95.8/100"
+        authors: []
+      - title: UNIST Best Research Award
+        awarder: UNIST
         date: 2023-02
-        summary: "UNIST -- top 5 excellent graduates"
-      - name: Best Poster Presentation Award
+        summary: "Top 5 excellent graduates"
+        authors: []
+      - title: Best Poster Presentation Award
+        awarder: The Korean Physical Society
         date: 2021-08
-        summary: The Korean Physical Society
-      - name: Best Poster Presentation Award
+        authors: []
+      - title: Best Poster Presentation Award
+        awarder: The Korean Physical Society
         date: 2021-04
-        summary: The Korean Physical Society
-      - name: Best Oral Presentation Award
+        authors: []
+      - title: Best Oral Presentation Award
+        awarder: The Korean Physical Society
         date: 2016-04
-        summary: The Korean Physical Society
-      - name: Ulsan Mayor Award
+        authors: []
+      - title: Ulsan Mayor Award
+        awarder: Ulsan
         date: 2016-02
-        summary: "Ulsan -- top 5 excellent graduates"
+        summary: "Top 5 excellent graduates"
+        authors: []
 
     Publications:
+      # `publisher` and `journal` carry the same text: the website's publications.liquid
+      # reads `publisher`, RenderCV's own PDF renderer reads `journal`.
       - title: Comprehensive peak-width analysis in matter-wave diffraction under grazing incidence conditions
         authors: ["**Lee Yeong Kim**", Do Won Kang, Jong Chan Lee, Eunmi Chae, Wieland Schöllkopf, Bum Suk Zhao]
+        publisher: Phys. Rev. A 110, 013313
         journal: Phys. Rev. A 110, 013313
         date: 2024
         doi: 10.1103/PhysRevA.110.013313
       - title: Diffractive mirrors for neutral-atom matter-wave optics
         authors: ["**Lee Yeong Kim**", Do Won Kang, Sanghwan Park, Seongyeop Lim, Jangwoo Kim, Wieland Schöllkopf, Bum Suk Zhao]
+        publisher: Farad. Disc. 251, 160
         journal: Farad. Disc. 251, 160
         date: 2024
         doi: 10.1039/D3FD00155E
       - title: Enhanced elastic scattering of He2 and He3 from solids by multiple-edge diffraction
         authors: ["**Lee Yeong Kim**", Sanghwan Park, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
+        publisher: Phys. Chem. Chem. Phys. 24, 21593 (Front cover)
         journal: Phys. Chem. Chem. Phys. 24, 21593 (Front cover)
         date: 2022
         doi: 10.1039/D2CP02641D
       - title: Experimental test of Babinet's Principle in matter-wave diffraction
         authors: ["**Lee Yeong Kim**", Ju Hyeon Lee, Yun-Tae Kim, Sanghwan Park, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
+        publisher: Phys. Chem. Chem. Phys. 23, 8030
         journal: Phys. Chem. Chem. Phys. 23, 8030
         date: 2021
         doi: 10.1039/D0CP05694D
       - title: Scattering of adiabatically aligned molecules by nonresonant optical standing waves
         authors: ["**Lee Yeong Kim**", Byung Gwun Jin, Tae Woo Kim, Ju Hyeon Lee, Bum Suk Zhao]
+        publisher: Sci. Adv. 6, eaaz0682
         journal: Sci. Adv. 6, eaaz0682
         date: 2020
         doi: 10.1126/sciadv.aaz0682
       - title: Matter-wave diffraction from a periodic array of half planes
         authors: [Ju Hyeon Lee, "**Lee Yeong Kim**", Yun-Tae Kim, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
+        publisher: "Phys. Rev. Lett. 122, 040401 (Editor's Suggestion)"
         journal: "Phys. Rev. Lett. 122, 040401 (Editor's Suggestion)"
         date: 2019
         doi: 10.1103/PhysRevLett.122.040401
       - title: "Universal diffraction of atomic and molecular matterwaves: A comparison of He and D2 quantum reflected from a grating"
         authors: [Weiqing Zhang, Ju Hyeon Lee, Hye Ah Kim, Byung Gwun Jin, Bong Jun Kim, "**Lee Yeong Kim**", Bum Suk Zhao, Wieland Schöllkopf]
+        publisher: Chem. Phys. Chem. 17, 3670
         journal: Chem. Phys. Chem. 17, 3670
         date: 2016
         doi: 10.1002/cphc.201600965
       - title: Strong optical dipole force exerted on molecules having low rotational temperature
         authors: [Xing Nan Sun, Byung Gwun Jin, "**Lee Yeong Kim**", Bong Jun Kim, Bum Suk Zhao]
+        publisher: Chem. Phys. Chem. 17, 3701
         journal: Chem. Phys. Chem. 17, 3701
         date: 2016
         doi: 10.1002/cphc.201600838
       - title: Effect of rotational-state-dependent molecular alignment on the optical dipole force
         authors: ["**Lee Yeong Kim**", Ju Hyeon Lee, Hye Ah Kim, Sang Kyu Kwak, Bretislav Friedrich, Bum Suk Zhao]
+        publisher: Phys. Rev. A 94, 013428
         journal: Phys. Rev. A 94, 013428
         date: 2016
         doi: 10.1103/PhysRevA.94.013428
       - title: Rotational-state-dependent dispersion of molecules by pulsed optical standing waves
         authors: [Xing Nan Sun, "**Lee Yeong Kim**", Bum Suk Zhao, Doo Soo Chung]
+        publisher: Phys. Rev. Lett. 115, 223001
         journal: Phys. Rev. Lett. 115, 223001
         date: 2015
         doi: 10.1103/PhysRevLett.115.223001
 
     Skills:
-      - label: Laboratory Techniques
-        details: "Precise scattering experiments with matter-waves (4He, D2) under high vacuum (10^-6 to 10^-12 mbar); vacuum systems (diffusion, rotary, NEG, and turbo pumps); operation and troubleshooting of nanosecond IR (Nd:YAG: Surelite, Powerlite) and visible dye (Sirah) lasers; Time-of-Flight (TOF) mass spectrometry, Velocity Map Ion Imaging (VMI), Resonance Enhanced Multiphoton Ionization (REMPI); Atomic Force Microscopy (Dimension ICON, NX10)"
-      - label: Computational Skills
-        details: "Molecular trajectory calculations with the Monte-Carlo method, solving the Schrödinger equation; experimental automation using LabVIEW; converted and upgraded simulations between C, Python, Mathematica, C++, Matlab, and LabVIEW"
-      - label: Computer Programs
-        details: "C++, Matlab, LabVIEW, LaTeX, Origin, Adobe Illustrator"
-      - label: Research Skills
-        details: "Experimental design and execution, data analysis and interpretation, technical/procedure documentation, scientific writing and presentation"
-      - label: Languages
-        details: "Korean (native), English (upper intermediate), German (intermediate, B1 TELC certificate)"
-      - label: Leadership
-        details: "Student representative, Department of Electrical and Electronic Engineering, UNIST (2012) -- liaison between students and faculty, organizing departmental meetings and student activities"
+      - name: Laboratory Techniques
+        keywords:
+          - "Precise scattering experiments with matter-waves (4He, D2) under high vacuum (10^-6 to 10^-12 mbar)"
+          - "Vacuum systems: diffusion, rotary, NEG, and turbo pumps"
+          - "Nanosecond IR lasers (Nd:YAG: Surelite, Powerlite) and visible dye (Sirah) lasers: operation, maintenance, troubleshooting"
+          - "Time-of-Flight (TOF) mass spectrometry, Velocity Map Ion Imaging (VMI), Resonance Enhanced Multiphoton Ionization (REMPI)"
+          - "Atomic Force Microscopy (Dimension ICON, NX10): image acquisition, processing, and analysis"
+      - name: Computational Skills
+        keywords:
+          - "Molecular trajectory calculations with the Monte-Carlo method, solving the Schrödinger equation"
+          - "Experimental automation using LabVIEW programming"
+          - "Converted and upgraded simulations between C, Python, Mathematica, C++, Matlab, and LabVIEW"
+      - name: Computer Programs
+        keywords:
+          - C++
+          - Matlab
+          - LabVIEW
+          - LaTeX
+          - Origin
+          - Adobe Illustrator
+      - name: Research Skills
+        keywords:
+          - "Designed and executed experiments, data analysis and interpretation"
+          - "Produced manuals for experimental processes"
+          - "Strong publication writing and presentation skills"
+      - name: Leadership Experience
+        keywords:
+          - "Student representative, Department of Electrical and Electronic Engineering, UNIST (2012) -- liaison between students and faculty, organizing departmental meetings and student activities"
+
+    Languages:
+      - name: Korean
+        summary: Native
+      - name: English
+        summary: Upper intermediate
+      - name: German
+        summary: "Intermediate (B1 TELC certificate)"
 
     Supervising and Mentoring:
-      - name: Mentoring and Teaching
-        highlights:
-          - Provided guidance to 4 graduate and 3 undergraduate students in research projects
-          - Served as teaching assistant (TA) 5 times for experimental physics laboratory courses
-          - Designed experiments and assisted as TA twice for physical chemistry laboratory courses
+      - bullet: Provided guidance to 4 graduate and 3 undergraduate students in research projects
+      - bullet: Served as teaching assistant (TA) 5 times for experimental physics laboratory courses
+      - bullet: Designed experiments and assisted as TA twice for physical chemistry laboratory courses
 
     Conference Activities:
-      - name: Conference on Quantum Fluid Clusters, QFC 2026
-        date: 2026-06
-        location: Austria
-        summary: Poster
-      - name: COST COSY WG4 Meeting
-        date: 2026-05
-        location: Austria
-        summary: Oral
-      - name: 2025 International Symposium on Molecular Beams (ISMB)
-        date: 2025-07
-        location: Switzerland
-        summary: Poster
-      - name: 24th European Conference on the Dynamics of Molecular Systems
-        date: 2024-07
-        location: Poland
-        summary: Poster
-      - name: 2021 Korean Physical Society Fall Meeting
-        date: 2021-10
-        location: Korea
-        summary: Poster
-      - name: Invited talk, 2021 International Symposium on Molecular Beams (ISMB)
-        date: 2021-07
-        location: Online
-        summary: Oral
-      - name: 2021 Korean Physical Society Spring Meeting
-        date: 2021-04
-        location: Korea
-        summary: Poster
-      - name: The 5th Asian Workshop on Molecular Spectroscopy (AWMS)
-        date: 2021-03
-        location: Japan
-        summary: Oral
-      - name: 2020 Society of Global Ph.D. Fellows Annual Conference
-        date: 2020-11
-        location: Korea
-        summary: Oral
-      - name: 2020 Korean Physical Society Fall Meeting
-        date: 2020-11
-        location: Korea
-        summary: Oral
-      - name: 2019 Society of Global Ph.D. Fellows Annual Conference
-        date: 2019-11
-        location: Korea
-        summary: Oral
-      - name: 2019 Korean Physical Society Fall Meeting
-        date: 2019-10
-        location: Korea
-        summary: Poster
-      - name: 2018 Frontiers of Matter Wave Optics (FOMO)
-        date: 2018-09
-        location: Greece
-        summary: Poster
-      - name: 2017 Korean-French Joint Symposium
-        date: 2017-09
-        location: Korea
-        summary: Poster
-      - name: "Hot topic, 2017 International Symposium on Molecular Beams (ISMB)"
-        date: 2017-06
-        location: Netherlands
-        summary: Oral
-      - name: 2017 Korean Physical Society Spring Meeting
-        date: 2017-04
-        location: Korea
-        summary: Oral
-      - name: 2016 Korean Physical Society Fall Meeting
-        date: 2016-10
-        location: Korea
-        summary: Poster
-      - name: Scattering of Atoms and Molecules from Surfaces (SAMS)
-        date: 2016-08
-        location: Norway
-        summary: Poster
-      - name: 2016 Korean Physical Society Spring Meeting
-        date: 2016-04
-        location: Korea
-        summary: Oral
-      - name: The 13th Symposium on Gas-phase Chemical Dynamics & Spectroscopy
-        date: 2016-02
-        location: Korea
-        summary: Oral
-      - name: The 12th Symposium on Gas-phase Chemical Dynamics & Spectroscopy
-        date: 2015-10
-        location: Korea
-        summary: Oral
-      - name: 2015 Korean Physical Society Spring Meeting
-        date: 2015-04
-        location: Korea
-        summary: Oral
-      - name: 2015 Korean Chemical Society Spring Meeting
-        date: 2015-04
-        location: Korea
-        summary: Oral
-      - name: 2015 Symposium on Molecular Beams (ISMB)
-        date: 2015-07
-        location: Spain
-        summary: Poster
+      - bullet: "**Jun. 2026**, Austria -- Poster: Conference on Quantum Fluid Clusters, QFC 2026"
+      - bullet: "**May 2026**, Austria -- Oral: COST COSY WG4 Meeting"
+      - bullet: "**Jul. 2025**, Switzerland -- Poster: 2025 International Symposium on Molecular Beams (ISMB)"
+      - bullet: "**Jul. 2024**, Poland -- Poster: 24th European Conference on the Dynamics of Molecular Systems"
+      - bullet: "**Oct. 2021**, Korea -- Poster: 2021 Korean Physical Society Fall Meeting"
+      - bullet: "**Jul. 2021**, Online -- Oral: Invited talk, 2021 International Symposium on Molecular Beams (ISMB)"
+      - bullet: "**Apr. 2021**, Korea -- Poster: 2021 Korean Physical Society Spring Meeting"
+      - bullet: "**Mar. 2021**, Japan -- Oral: The 5th Asian Workshop on Molecular Spectroscopy (AWMS)"
+      - bullet: "**Nov. 2020**, Korea -- Oral: 2020 Society of Global Ph.D. Fellows Annual Conference"
+      - bullet: "**Nov. 2020**, Korea -- Oral: 2020 Korean Physical Society Fall Meeting"
+      - bullet: "**Nov. 2019**, Korea -- Oral: 2019 Society of Global Ph.D. Fellows Annual Conference"
+      - bullet: "**Oct. 2019**, Korea -- Poster: 2019 Korean Physical Society Fall Meeting"
+      - bullet: "**Sep. 2018**, Greece -- Poster: 2018 Frontiers of Matter Wave Optics (FOMO)"
+      - bullet: "**Sep. 2017**, Korea -- Poster: 2017 Korean-French Joint Symposium"
+      - bullet: "**Jun. 2017**, Netherlands -- Oral: Hot topic, 2017 International Symposium on Molecular Beams (ISMB)"
+      - bullet: "**Apr. 2017**, Korea -- Oral: 2017 Korean Physical Society Spring Meeting"
+      - bullet: "**Oct. 2016**, Korea -- Poster: 2016 Korean Physical Society Fall Meeting"
+      - bullet: "**Aug. 2016**, Norway -- Poster: Scattering of Atoms and Molecules from Surfaces (SAMS)"
+      - bullet: "**Apr. 2016**, Korea -- Oral: 2016 Korean Physical Society Spring Meeting"
+      - bullet: "**Feb. 2016**, Korea -- Oral: The 13th Symposium on Gas-phase Chemical Dynamics & Spectroscopy"
+      - bullet: "**Oct. 2015**, Korea -- Oral: The 12th Symposium on Gas-phase Chemical Dynamics & Spectroscopy"
+      - bullet: "**Apr. 2015**, Korea -- Oral: 2015 Korean Physical Society Spring Meeting"
+      - bullet: "**Apr. 2015**, Korea -- Oral: 2015 Korean Chemical Society Spring Meeting"
+      - bullet: "**Jul. 2015**, Spain -- Poster: 2015 Symposium on Molecular Beams (ISMB)"
