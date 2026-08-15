@@ -1,189 +1,277 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Lee Yeong Kim
+  headline: Postdoctoral Researcher, University of Vienna
+  location: Vienna, Austria
+  email: leeyeong.kim@univie.ac.at
+  phone: "+43 664 1279250"
+  website: https://leeyeongkim.github.io/my_research/
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
+    - network: ORCID
+      username: 0000-0003-3509-4628
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: leeyeongkim
 
   sections:
+    Research Interests:
+      - My PhD thesis focuses on matter-wave scattering (4He and D2) with thermal-energy atoms incident on surfaces at extremely small incidence angles. This approach enables the study of the atom-surface dispersion potential by accessing a kinetic-energy range of 2-100 neV. We demonstrated fundamental optical principles -- Babinet's principle and the reciprocity theorem -- in the context of matter waves, and discovered a new non-destructive reflection mechanism, multiple edge-diffraction reflection.
+      - In addition, I actively contributed to molecular deflection experiments using a counter-propagating, non-resonant laser pulse and a pulsed molecular beam. The deflected molecules were ionized and detected using velocity map imaging mass spectrometry. I mainly focused on molecular trajectory simulations, considering the rotational-state-dependent polarization of molecules in laser fields.
+      - Motivated by these experiences, I am interested in quantum optics, quantum phenomena on solid surfaces, dispersive interactions between materials, and AMO physics such as laser cooling, trapping, and precision spectroscopy.
+
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
+      - institution: Ulsan National Institute of Science and Technology (UNIST)
         area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        degree: Combined MS/PhD
+        location: Ulsan, Korea
+        start_date: 2016-03
+        end_date: 2022-08
+        summary: "Advisor: Prof. Bum Suk Zhao. Dissertation: \"Study on matter-wave optics under grazing incidence condition with solid surfaces.\""
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+          - "Grade: 4.02/4.3"
+      - institution: Ulsan National Institute of Science and Technology (UNIST)
+        area: "Physics (Minor: Energy Engineering)"
+        degree: BS
+        location: Ulsan, Korea
+        start_date: 2011-03
+        end_date: 2016-02
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Grade: 3.60/4.3"
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
+    Academic Experience:
+      - company: University of Vienna
+        position: Postdoctoral Researcher
+        location: Vienna, Austria
+        start_date: 2026-01
+        end_date: present
+        summary: "Research advisor: Prof. Markus Arndt"
+      - company: "Career transition period (spouse's postdoctoral stay)"
+        position: Seeking academic opportunities to continue my research career
+        location: Zürich, Switzerland
+        start_date: 2023-07
+        end_date: 2025-12
+        summary: "Took an unplanned career break of approximately two years to accompany my spouse, while remaining actively engaged in research: two publications in 2024 and participation in the MOLEC 2024 and ISMB 2025 conferences."
+      - company: UNIST
+        position: Postdoctoral Researcher
+        location: Ulsan, Korea
+        start_date: 2022-09
+        end_date: 2023-06
+        summary: "Research advisor: Prof. Bum Suk Zhao"
+      - company: Fritz-Haber-Institut der Max-Planck-Gesellschaft
+        position: Visiting Student
         location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        start_date: 2014-01
+        end_date: 2019-12
+        summary: "Research advisors: Dr. Wieland Schöllkopf and Prof. Bum Suk Zhao"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Seven visits: 4 months (2014, 2017), 2 months (2015, 2016), and 10 months (2019)."
+      - company: UNIST
+        position: Undergraduate Research Assistant
+        location: Ulsan, Korea
+        start_date: 2013-07
+        end_date: 2016-02
+        summary: "Research advisor: Prof. Bum Suk Zhao"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    Funding and Fellowships:
+      - name: "quantA Postdoctoral Fellowship: Empowering Women in Quantum Science"
+        start_date: 2026
+        end_date: 2027
+        summary: quantA
+      - name: Global Ph.D. Fellowship
+        start_date: 2017
+        end_date: 2021
+        summary: "The Korean Government -- acceptance rate 7.6:1"
+      - name: Global Internship Program Scholarship
+        start_date: 2014-07
+        end_date: 2014-11
+        summary: The Korean Government
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Awards and Honors:
+      - name: "Seal of Excellence, Marie Skłodowska-Curie Actions Postdoctoral Fellowship"
+        date: 2026-02
+        summary: "European Commission -- proposal score 95.8/100"
+      - name: UNIST Best Research Award
+        date: 2023-02
+        summary: "UNIST -- top 5 excellent graduates"
+      - name: Best Poster Presentation Award
+        date: 2021-08
+        summary: The Korean Physical Society
+      - name: Best Poster Presentation Award
+        date: 2021-04
+        summary: The Korean Physical Society
+      - name: Best Oral Presentation Award
+        date: 2016-04
+        summary: The Korean Physical Society
+      - name: Ulsan Mayor Award
+        date: 2016-02
+        summary: "Ulsan -- top 5 excellent graduates"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: Comprehensive peak-width analysis in matter-wave diffraction under grazing incidence conditions
+        authors: ["**Lee Yeong Kim**", Do Won Kang, Jong Chan Lee, Eunmi Chae, Wieland Schöllkopf, Bum Suk Zhao]
+        journal: Phys. Rev. A 110, 013313
+        date: 2024
+        doi: 10.1103/PhysRevA.110.013313
+      - title: Diffractive mirrors for neutral-atom matter-wave optics
+        authors: ["**Lee Yeong Kim**", Do Won Kang, Sanghwan Park, Seongyeop Lim, Jangwoo Kim, Wieland Schöllkopf, Bum Suk Zhao]
+        journal: Farad. Disc. 251, 160
+        date: 2024
+        doi: 10.1039/D3FD00155E
+      - title: Enhanced elastic scattering of He2 and He3 from solids by multiple-edge diffraction
+        authors: ["**Lee Yeong Kim**", Sanghwan Park, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
+        journal: Phys. Chem. Chem. Phys. 24, 21593 (Front cover)
+        date: 2022
+        doi: 10.1039/D2CP02641D
+      - title: Experimental test of Babinet's Principle in matter-wave diffraction
+        authors: ["**Lee Yeong Kim**", Ju Hyeon Lee, Yun-Tae Kim, Sanghwan Park, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
+        journal: Phys. Chem. Chem. Phys. 23, 8030
+        date: 2021
+        doi: 10.1039/D0CP05694D
+      - title: Scattering of adiabatically aligned molecules by nonresonant optical standing waves
+        authors: ["**Lee Yeong Kim**", Byung Gwun Jin, Tae Woo Kim, Ju Hyeon Lee, Bum Suk Zhao]
+        journal: Sci. Adv. 6, eaaz0682
+        date: 2020
+        doi: 10.1126/sciadv.aaz0682
+      - title: Matter-wave diffraction from a periodic array of half planes
+        authors: [Ju Hyeon Lee, "**Lee Yeong Kim**", Yun-Tae Kim, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
+        journal: "Phys. Rev. Lett. 122, 040401 (Editor's Suggestion)"
+        date: 2019
+        doi: 10.1103/PhysRevLett.122.040401
+      - title: "Universal diffraction of atomic and molecular matterwaves: A comparison of He and D2 quantum reflected from a grating"
+        authors: [Weiqing Zhang, Ju Hyeon Lee, Hye Ah Kim, Byung Gwun Jin, Bong Jun Kim, "**Lee Yeong Kim**", Bum Suk Zhao, Wieland Schöllkopf]
+        journal: Chem. Phys. Chem. 17, 3670
+        date: 2016
+        doi: 10.1002/cphc.201600965
+      - title: Strong optical dipole force exerted on molecules having low rotational temperature
+        authors: [Xing Nan Sun, Byung Gwun Jin, "**Lee Yeong Kim**", Bong Jun Kim, Bum Suk Zhao]
+        journal: Chem. Phys. Chem. 17, 3701
+        date: 2016
+        doi: 10.1002/cphc.201600838
+      - title: Effect of rotational-state-dependent molecular alignment on the optical dipole force
+        authors: ["**Lee Yeong Kim**", Ju Hyeon Lee, Hye Ah Kim, Sang Kyu Kwak, Bretislav Friedrich, Bum Suk Zhao]
+        journal: Phys. Rev. A 94, 013428
+        date: 2016
+        doi: 10.1103/PhysRevA.94.013428
+      - title: Rotational-state-dependent dispersion of molecules by pulsed optical standing waves
+        authors: [Xing Nan Sun, "**Lee Yeong Kim**", Bum Suk Zhao, Doo Soo Chung]
+        journal: Phys. Rev. Lett. 115, 223001
+        date: 2015
+        doi: 10.1103/PhysRevLett.115.223001
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - label: Laboratory Techniques
+        details: "Precise scattering experiments with matter-waves (4He, D2) under high vacuum (10^-6 to 10^-12 mbar); vacuum systems (diffusion, rotary, NEG, and turbo pumps); operation and troubleshooting of nanosecond IR (Nd:YAG: Surelite, Powerlite) and visible dye (Sirah) lasers; Time-of-Flight (TOF) mass spectrometry, Velocity Map Ion Imaging (VMI), Resonance Enhanced Multiphoton Ionization (REMPI); Atomic Force Microscopy (Dimension ICON, NX10)"
+      - label: Computational Skills
+        details: "Molecular trajectory calculations with the Monte-Carlo method, solving the Schrödinger equation; experimental automation using LabVIEW; converted and upgraded simulations between C, Python, Mathematica, C++, Matlab, and LabVIEW"
+      - label: Computer Programs
+        details: "C++, Matlab, LabVIEW, LaTeX, Origin, Adobe Illustrator"
+      - label: Research Skills
+        details: "Experimental design and execution, data analysis and interpretation, technical/procedure documentation, scientific writing and presentation"
+      - label: Languages
+        details: "Korean (native), English (upper intermediate), German (intermediate, B1 TELC certificate)"
+      - label: Leadership
+        details: "Student representative, Department of Electrical and Electronic Engineering, UNIST (2012) -- liaison between students and faculty, organizing departmental meetings and student activities"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    Supervising and Mentoring:
+      - name: Mentoring and Teaching
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Provided guidance to 4 graduate and 3 undergraduate students in research projects
+          - Served as teaching assistant (TA) 5 times for experimental physics laboratory courses
+          - Designed experiments and assisted as TA twice for physical chemistry laboratory courses
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Conference Activities:
+      - name: Conference on Quantum Fluid Clusters, QFC 2026
+        date: 2026-06
+        location: Austria
+        summary: Poster
+      - name: COST COSY WG4 Meeting
+        date: 2026-05
+        location: Austria
+        summary: Oral
+      - name: 2025 International Symposium on Molecular Beams (ISMB)
+        date: 2025-07
+        location: Switzerland
+        summary: Poster
+      - name: 24th European Conference on the Dynamics of Molecular Systems
+        date: 2024-07
+        location: Poland
+        summary: Poster
+      - name: 2021 Korean Physical Society Fall Meeting
+        date: 2021-10
+        location: Korea
+        summary: Poster
+      - name: Invited talk, 2021 International Symposium on Molecular Beams (ISMB)
+        date: 2021-07
+        location: Online
+        summary: Oral
+      - name: 2021 Korean Physical Society Spring Meeting
+        date: 2021-04
+        location: Korea
+        summary: Poster
+      - name: The 5th Asian Workshop on Molecular Spectroscopy (AWMS)
+        date: 2021-03
+        location: Japan
+        summary: Oral
+      - name: 2020 Society of Global Ph.D. Fellows Annual Conference
+        date: 2020-11
+        location: Korea
+        summary: Oral
+      - name: 2020 Korean Physical Society Fall Meeting
+        date: 2020-11
+        location: Korea
+        summary: Oral
+      - name: 2019 Society of Global Ph.D. Fellows Annual Conference
+        date: 2019-11
+        location: Korea
+        summary: Oral
+      - name: 2019 Korean Physical Society Fall Meeting
+        date: 2019-10
+        location: Korea
+        summary: Poster
+      - name: 2018 Frontiers of Matter Wave Optics (FOMO)
+        date: 2018-09
+        location: Greece
+        summary: Poster
+      - name: 2017 Korean-French Joint Symposium
+        date: 2017-09
+        location: Korea
+        summary: Poster
+      - name: "Hot topic, 2017 International Symposium on Molecular Beams (ISMB)"
+        date: 2017-06
+        location: Netherlands
+        summary: Oral
+      - name: 2017 Korean Physical Society Spring Meeting
+        date: 2017-04
+        location: Korea
+        summary: Oral
+      - name: 2016 Korean Physical Society Fall Meeting
+        date: 2016-10
+        location: Korea
+        summary: Poster
+      - name: Scattering of Atoms and Molecules from Surfaces (SAMS)
+        date: 2016-08
+        location: Norway
+        summary: Poster
+      - name: 2016 Korean Physical Society Spring Meeting
+        date: 2016-04
+        location: Korea
+        summary: Oral
+      - name: The 13th Symposium on Gas-phase Chemical Dynamics & Spectroscopy
+        date: 2016-02
+        location: Korea
+        summary: Oral
+      - name: The 12th Symposium on Gas-phase Chemical Dynamics & Spectroscopy
+        date: 2015-10
+        location: Korea
+        summary: Oral
+      - name: 2015 Korean Physical Society Spring Meeting
+        date: 2015-04
+        location: Korea
+        summary: Oral
+      - name: 2015 Korean Chemical Society Spring Meeting
+        date: 2015-04
+        location: Korea
+        summary: Oral
+      - name: 2015 Symposium on Molecular Beams (ISMB)
+        date: 2015-07
+        location: Spain
+        summary: Poster

@@ -1,9 +1,23 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"PRA":
+  url: https://journals.aps.org/pra/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"PRL":
+  url: https://journals.aps.org/prl/
+  color: "#a6192e"
 
-"Vision":
-  color: "#009f36"
+"PCCP":
+  url: https://www.rsc.org/journals-books-databases/about-journals/pccp/
+  color: "#78a22f"
+
+"FD":
+  url: https://www.rsc.org/journals-books-databases/about-journals/faraday-discussions/
+  color: "#78a22f"
+
+"Sci. Adv.":
+  url: https://www.science.org/journal/sciadv
+  color: "#c11f2a"
+
+"ChemPhysChem":
+  url: https://chemistry-europe.onlinelibrary.wiley.com/journal/14394235
+  color: "#e2861f"
