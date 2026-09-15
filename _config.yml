@@ -252,10 +252,10 @@ exclude:
   - vendor
   # Demo content from the al-folio starter, not used on this personal site.
   # Kept in the repo (not deleted) so future upgrades stay conflict-free; see docs/CUSTOMIZE.md.
+  # _projects/ and _pages/projects.md are NOT excluded -- repurposed as the
+  # "Talks & Conference Photos" gallery.
   - _posts/
   - _pages/blog.md
-  - _projects/
-  - _pages/projects.md
   - _teachings/
   - _pages/teaching.md
   - _books/
