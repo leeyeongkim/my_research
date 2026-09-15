@@ -93,6 +93,10 @@ jobs:
 
       - name: Commit and push if changed
         run: |
+          if [ ! -f _data/citations.yml ]; then
+            echo "ℹ️ _data/citations.yml does not exist (no Scholar ID configured yet). Nothing to commit."
+            exit 0
+          fi
           git add _data/citations.yml
           git diff --staged --quiet || (
             echo "📤 Committing and pushing changes..."

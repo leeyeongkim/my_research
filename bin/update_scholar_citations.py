@@ -7,23 +7,26 @@ from datetime import datetime
 from scholarly import scholarly
 
 
-def load_scholar_user_id() -> str:
-    """Load the Google Scholar user ID from the configuration file."""
+def load_scholar_user_id() -> str | None:
+    """Load the Google Scholar user ID from the configuration file.
+
+    Returns None when the file or the id is simply not configured yet --
+    that's a normal "feature not set up" state, not an error worth failing
+    the scheduled workflow over.
+    """
     config_file = "_data/socials.yml"
     if not os.path.exists(config_file):
-        print(
-            f"Configuration file {config_file} not found. Please ensure the file exists and contains your Google Scholar user ID."
-        )
-        sys.exit(1)
+        print(f"Configuration file {config_file} not found. Skipping citation update.")
+        return None
     try:
         with open(config_file, "r") as f:
             config = yaml.safe_load(f)
         scholar_user_id = config.get("scholar_userid")
         if not scholar_user_id:
             print(
-                "No 'scholar_userid' found in the configuration file. Please add 'scholar_userid' to _data/socials.yml."
+                "No 'scholar_userid' set in _data/socials.yml yet. Skipping citation update."
             )
-            sys.exit(1)
+            return None
         return scholar_user_id
     except yaml.YAMLError as e:
         print(
@@ -32,12 +35,15 @@ def load_scholar_user_id() -> str:
         sys.exit(1)
 
 
-SCHOLAR_USER_ID: str = load_scholar_user_id()
+SCHOLAR_USER_ID: str | None = load_scholar_user_id()
 OUTPUT_FILE: str = "_data/citations.yml"
 
 
 def get_scholar_citations() -> None:
     """Fetch and update Google Scholar citation data."""
+    if not SCHOLAR_USER_ID:
+        return
+
     print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
     today = datetime.now().strftime("%Y-%m-%d")
 
