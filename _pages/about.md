@@ -25,7 +25,9 @@ latest_posts:
   enabled: false
 ---
 
-I am a postdoctoral researcher at the Faculty of Physics, University of Vienna, working with Prof. Markus Arndt. My PhD thesis focused on matter-wave scattering (<sup>4</sup>He and D<sub>2</sub>) from surfaces at extremely small incidence angles, a regime that accesses a kinetic-energy range of 2&ndash;100&nbsp;neV and lets us probe the atom-surface dispersion potential directly. That work demonstrated two classical optical principles &mdash; Babinet's principle and the reciprocity theorem &mdash; in the matter-wave context, and uncovered a new non-destructive reflection mechanism: multiple edge-diffraction reflection.
+Currently, I’m working as a postdoc with BIOTIMA team in Prof. Markus Arndt’s group, researching biomolecule matter-wave interference, with the aim of extending it from larger peptide (> 2,000 Da) towards proteins.
+
+My PhD thesis focused on matter-wave scattering (<sup>4</sup>He and D<sub>2</sub>) from surfaces at extremely small incidence angles, a regime that accesses a kinetic-energy range of 2&ndash;100&nbsp;neV and lets us probe the atom-surface dispersion potential directly. That work demonstrated two classical optical principles &mdash; Babinet's principle and the reciprocity theorem &mdash; in the matter-wave context, and uncovered a new non-destructive reflection mechanism: multiple edge-diffraction reflection.
 
 I have also contributed to molecular deflection experiments using a counter-propagating, non-resonant laser pulse and a pulsed molecular beam, with deflected molecules ionized and detected via velocity-map-imaging mass spectrometry, focusing on trajectory simulations of rotational-state-dependent molecular polarization.
 
