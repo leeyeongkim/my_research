@@ -21,7 +21,7 @@ cv:
         start_date: 2016-03-01
         end_date: 2022-08-19
         highlights:
-          - "Advisor: Prof. Bum Suk Zhao. Dissertation: \"Study on matter-wave optics under grazing incidence condition with solid surfaces.\""
+          - 'Advisor: Prof. Bum Suk Zhao. Dissertation: "Study on matter-wave optics under grazing incidence condition with solid surfaces."'
           - "Grade: 4.02/4.3"
       - institution: Ulsan National Institute of Science and Technology (UNIST)
         area: "Physics (Minor: Energy Engineering)"
@@ -181,21 +181,12 @@ cv:
         date: 2015
         doi: 10.1103/PhysRevLett.115.223001
 
-    Skills:
-      - name: Laboratory Techniques
-        keywords:
-          - "Matter-wave scattering experiments of 4He, D2 at 2-100 neV under grazing incidence at high vacuum (10^-6 to 10^-12 mbar)"
-          - "Vacuum systems: diffusion, rotary, NEG, and turbo pumps"
-          - "Nanosecond IR lasers (Nd:YAG: Surelite, Powerlite) and visible dye (Sirah) lasers: operation, maintenance, troubleshooting"
-          - "Molecular beams and ion detection techniques: Time-of-Flight (TOF) mass spectrometry, Velocity Map Ion Imaging (VMI), Resonance Enhanced Multiphoton Ionization (REMPI)"
-          - "Atomic Force Microscopy (Dimension ICON, NX10): image acquisition, processing, and analysis"
-          - "Authored operating manuals and standard procedures for daily laboratory experiments"
-      - name: Computational Skills
-        keywords:
-          - "Molecular trajectory calculations with the Monte-Carlo method, solving the Schrödinger equation (C++)"
-          - "Experimental automation using LabVIEW programming"
-          - "Converted and upgraded simulations between C, Python, Mathematica, C++, Matlab, and LabVIEW"
-          - "C++, Matlab, LabVIEW, LaTeX, Origin, Adobe Illustrator"
+    Technical Skills:
+      # A plain `bullet` string, not `name`/`keywords`: RenderCV's Python PDF renderer
+      # crashes on any list-valued field other than `highlights`/`authors` (even in an
+      # unrelated section), so keywords are joined into text instead of a YAML list.
+      - bullet: "**Laboratory Techniques:** Matter-wave scattering experiments of 4He, D2 at 2-100 neV under grazing incidence at high vacuum (10^-6 to 10^-12 mbar); vacuum systems (diffusion, rotary, NEG, and turbo pumps); nanosecond IR lasers (Nd:YAG: Surelite, Powerlite) and visible dye (Sirah) lasers -- operation, maintenance, troubleshooting; molecular beams and ion detection techniques (Time-of-Flight mass spectrometry, Velocity Map Ion Imaging, Resonance Enhanced Multiphoton Ionization); Atomic Force Microscopy (Dimension ICON, NX10); authored operating manuals and standard procedures for daily laboratory experiments"
+      - bullet: "**Computational Skills:** Molecular trajectory calculations with the Monte-Carlo method, solving the Schrödinger equation (C++); experimental automation using LabVIEW programming; converted and upgraded simulations between C, Python, Mathematica, C++, Matlab, and LabVIEW; C++, Matlab, LabVIEW, LaTeX, Origin, Adobe Illustrator"
 
     Languages:
       - name: Korean
