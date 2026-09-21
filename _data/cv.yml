@@ -156,18 +156,6 @@ cv:
         journal: "Phys. Rev. Lett. 122, 040401 (Editor's Suggestion)"
         date: 2019
         doi: 10.1103/PhysRevLett.122.040401
-      - title: "Universal diffraction of atomic and molecular matterwaves: A comparison of He and D2 quantum reflected from a grating"
-        authors: [Weiqing Zhang, Ju Hyeon Lee, Hye Ah Kim, Byung Gwun Jin, Bong Jun Kim, "**Lee Yeong Kim**", Bum Suk Zhao, Wieland Schöllkopf]
-        publisher: Chem. Phys. Chem. 17, 3670
-        journal: Chem. Phys. Chem. 17, 3670
-        date: 2016
-        doi: 10.1002/cphc.201600965
-      - title: Strong optical dipole force exerted on molecules having low rotational temperature
-        authors: [Xing Nan Sun, Byung Gwun Jin, "**Lee Yeong Kim**", Bong Jun Kim, Bum Suk Zhao]
-        publisher: Chem. Phys. Chem. 17, 3701
-        journal: Chem. Phys. Chem. 17, 3701
-        date: 2016
-        doi: 10.1002/cphc.201600838
       - title: Effect of rotational-state-dependent molecular alignment on the optical dipole force
         authors: ["**Lee Yeong Kim**", Ju Hyeon Lee, Hye Ah Kim, Sang Kyu Kwak, Bretislav Friedrich, Bum Suk Zhao]
         publisher: Phys. Rev. A 94, 013428
@@ -180,6 +168,13 @@ cv:
         journal: Phys. Rev. Lett. 115, 223001
         date: 2015
         doi: 10.1103/PhysRevLett.115.223001
+
+    Co-Authored Publications:
+      # Publications where I contributed but was not first or co-first author.
+      # Kept as a separate section (bullet entries, not PublicationEntry) so the
+      # "Publications" section above can stay exclusively first/co-first-author work.
+      - bullet: 'Zhang, Lee, Kim, Jin, Kim, **Kim**, Zhao, and Schöllkopf, "Universal diffraction of atomic and molecular matterwaves: A comparison of He and D2 quantum reflected from a grating," Chem. Phys. Chem. 17, 3670 (2016). [DOI: 10.1002/cphc.201600965](https://doi.org/10.1002/cphc.201600965)'
+      - bullet: 'Sun, Jin, **Kim**, Kim, and Zhao, "Strong optical dipole force exerted on molecules having low rotational temperature," Chem. Phys. Chem. 17, 3701 (2016). [DOI: 10.1002/cphc.201600838](https://doi.org/10.1002/cphc.201600838)'
 
     Technical Skills:
       # A plain `bullet` string, not `name`/`keywords`: RenderCV's Python PDF renderer
