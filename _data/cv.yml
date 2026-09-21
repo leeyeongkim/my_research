@@ -67,7 +67,7 @@ cv:
         summary: "Research advisors: Dr. Wieland Schöllkopf and Prof. Bum Suk Zhao"
         highlights:
           - "Seven visits: 4 months (2014, 2017), 2 months (2015, 2016), and 10 months (2019)."
-          - "Carried out 4He, 4He2, 4He3 and D2 scattering experiments on the FHI molecular-beam apparatus"
+          - "Carried out <sup>4</sup>He, <sup>4</sup>He<sub>2</sub>, <sup>4</sup>He<sub>3</sub> and D<sub>2</sub> scattering experiments on the FHI molecular-beam apparatus"
           - "Experimentally tested Babinet's principle in matter-wave diffraction and identified multiple-edge diffraction, a non-destructive mechanism that enhances elastic reflection from microstructured surfaces (PCCP 23, 8030; PCCP 24, 21593 -- front cover)"
           - "Observed the transition from quantum reflection to edge diffraction in a periodic array of half planes (Phys. Rev. Lett. 122, 040401 -- Editor's Suggestion)"
       - company: UNIST
@@ -131,7 +131,7 @@ cv:
         journal: Farad. Disc. 251, 160
         date: 2024
         doi: 10.1039/D3FD00155E
-      - title: Enhanced elastic scattering of He2 and He3 from solids by multiple-edge diffraction
+      - title: "Enhanced elastic scattering of He<sub>2</sub> and He<sub>3</sub> from solids by multiple-edge diffraction"
         authors: ["**Lee Yeong Kim**", Sanghwan Park, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
         publisher: Phys. Chem. Chem. Phys. 24, 21593 (Front cover)
         journal: Phys. Chem. Chem. Phys. 24, 21593 (Front cover)
@@ -172,7 +172,7 @@ cv:
       # Publications where I contributed but was not first or co-first author.
       # Kept as a separate section (bullet entries, not PublicationEntry) so the
       # "Publications" section above can stay exclusively first/co-first-author work.
-      - bullet: 'Zhang, Lee, Kim, Jin, Kim, **Kim**, Zhao, and Schöllkopf, "Universal diffraction of atomic and molecular matterwaves: A comparison of He and D2 quantum reflected from a grating," Chem. Phys. Chem. 17, 3670 (2016). [DOI: 10.1002/cphc.201600965](https://doi.org/10.1002/cphc.201600965)'
+      - bullet: 'Zhang, Lee, Kim, Jin, Kim, **Kim**, Zhao, and Schöllkopf, "Universal diffraction of atomic and molecular matterwaves: A comparison of He and D<sub>2</sub> quantum reflected from a grating," Chem. Phys. Chem. 17, 3670 (2016). [DOI: 10.1002/cphc.201600965](https://doi.org/10.1002/cphc.201600965)'
       - bullet: 'Sun, Jin, **Kim**, Kim, and Zhao, "Strong optical dipole force exerted on molecules having low rotational temperature," Chem. Phys. Chem. 17, 3701 (2016). [DOI: 10.1002/cphc.201600838](https://doi.org/10.1002/cphc.201600838)'
 
     Technical Skills:
@@ -182,7 +182,7 @@ cv:
       # inside the one string, rather than one long semicolon-separated sentence.
       - bullet: |-
           **Laboratory Techniques**
-          - Matter-wave scattering experiments of 4He, D2 at 2-100 neV under grazing incidence at high vacuum (10^-6 to 10^-12 mbar)
+          - Matter-wave scattering experiments of <sup>4</sup>He, D<sub>2</sub> at 2-100 neV under grazing incidence at high vacuum (10<sup>-6</sup> to 10<sup>-12</sup> mbar)
           - Vacuum systems: diffusion, rotary, NEG, and turbo pumps
           - Nanosecond IR lasers (Nd:YAG: Surelite, Powerlite) and visible dye (Sirah) lasers -- operation, maintenance, troubleshooting
           - Molecular beams and ion detection techniques: Time-of-Flight mass spectrometry, Velocity Map Ion Imaging, Resonance Enhanced Multiphoton Ionization
