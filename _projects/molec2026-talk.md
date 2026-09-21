@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "MOLEC 2026 -- (Hot topic) Oral Presentation"
+title: "2026 MOLEC -- (Hot topic) Oral Presentation"
 description: Exploring Photochemistry for Quantum Optics with Large Organic Molecules
 img: assets/img/molec2026_talk.jpg
 importance: 1
