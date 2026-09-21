@@ -1,7 +1,7 @@
 ---
 layout: page
-title: talks
-permalink: /talks/
+title: photos
+permalink: /photos/
 description: Photos and short notes from conference talks and other research events.
 nav: true
 nav_order: 3
