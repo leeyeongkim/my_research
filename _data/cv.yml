@@ -172,8 +172,8 @@ cv:
       # Publications where I contributed but was not first or co-first author.
       # Kept as a separate section (bullet entries, not PublicationEntry) so the
       # "Publications" section above can stay exclusively first/co-first-author work.
-      - bullet: 'Zhang, Lee, Kim, Jin, Kim, **Kim**, Zhao, and Schöllkopf, "Universal diffraction of atomic and molecular matterwaves: A comparison of He and D<sub>2</sub> quantum reflected from a grating," Chem. Phys. Chem. 17, 3670 (2016). [DOI: 10.1002/cphc.201600965](https://doi.org/10.1002/cphc.201600965)'
-      - bullet: 'Sun, Jin, **Kim**, Kim, and Zhao, "Strong optical dipole force exerted on molecules having low rotational temperature," Chem. Phys. Chem. 17, 3701 (2016). [DOI: 10.1002/cphc.201600838](https://doi.org/10.1002/cphc.201600838)'
+      - bullet: 'Zhang, W., Lee, J.H., Kim, H.A., Jin, B.G., Kim, B.J., **Kim, L.Y.**, Zhao, B.S., and Schöllkopf, W., "Universal diffraction of atomic and molecular matterwaves: A comparison of He and D<sub>2</sub> quantum reflected from a grating," Chem. Phys. Chem. 17, 3670 (2016). [DOI: 10.1002/cphc.201600965](https://doi.org/10.1002/cphc.201600965)'
+      - bullet: 'Sun, X.N., Jin, B.G., **Kim, L.Y.**, Kim, B.J., and Zhao, B.S., "Strong optical dipole force exerted on molecules having low rotational temperature," Chem. Phys. Chem. 17, 3701 (2016). [DOI: 10.1002/cphc.201600838](https://doi.org/10.1002/cphc.201600838)'
 
     Technical Skills:
       # A plain `bullet` string, not `name`/`keywords`: RenderCV's Python PDF renderer
