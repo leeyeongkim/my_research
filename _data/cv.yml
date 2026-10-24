@@ -123,50 +123,59 @@ cv:
         authors: ["**Lee Yeong Kim**", Do Won Kang, Jong Chan Lee, Eunmi Chae, Wieland Schöllkopf, Bum Suk Zhao]
         publisher: Phys. Rev. A 110, 013313
         journal: Phys. Rev. A 110, 013313
+        summary: "**Lee Yeong Kim**<sup>†</sup>, Do Won Kang<sup>†</sup>, Jong Chan Lee, Eunmi Chae, Wieland Schöllkopf, and Bum Suk Zhao<sup>&#42;</sup>"
         date: 2024
         doi: 10.1103/PhysRevA.110.013313
       - title: Diffractive mirrors for neutral-atom matter-wave optics
         authors: ["**Lee Yeong Kim**", Do Won Kang, Sanghwan Park, Seongyeop Lim, Jangwoo Kim, Wieland Schöllkopf, Bum Suk Zhao]
         publisher: Farad. Disc. 251, 160
         journal: Farad. Disc. 251, 160
+        summary: "**Lee Yeong Kim**<sup>†</sup>, Do Won Kang<sup>†</sup>, Sanghwan Park, Seongyeop Lim, Jangwoo Kim, Wieland Schöllkopf, and Bum Suk Zhao<sup>&#42;</sup>"
         date: 2024
         doi: 10.1039/D3FD00155E
       - title: "Enhanced elastic scattering of He<sub>2</sub> and He<sub>3</sub> from solids by multiple-edge diffraction"
         authors: ["**Lee Yeong Kim**", Sanghwan Park, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
         publisher: Phys. Chem. Chem. Phys. 24, 21593 (Front cover)
         journal: Phys. Chem. Chem. Phys. 24, 21593 (Front cover)
+        summary: "**Lee Yeong Kim**, Sanghwan Park, Chang Young Lee, Wieland Schöllkopf<sup>&#42;</sup>, and Bum Suk Zhao<sup>&#42;</sup>"
         date: 2022
         doi: 10.1039/D2CP02641D
       - title: Experimental test of Babinet's Principle in matter-wave diffraction
         authors: ["**Lee Yeong Kim**", Ju Hyeon Lee, Yun-Tae Kim, Sanghwan Park, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
         publisher: Phys. Chem. Chem. Phys. 23, 8030
         journal: Phys. Chem. Chem. Phys. 23, 8030
+        summary: "**Lee Yeong Kim**<sup>†</sup>, Ju Hyeon Lee<sup>†</sup>, Yun-Tae Kim, Sanghwan Park, Chang Young Lee, Wieland Schöllkopf<sup>&#42;</sup>, and Bum Suk Zhao<sup>&#42;</sup>"
         date: 2021
         doi: 10.1039/D0CP05694D
       - title: Scattering of adiabatically aligned molecules by nonresonant optical standing waves
         authors: ["**Lee Yeong Kim**", Byung Gwun Jin, Tae Woo Kim, Ju Hyeon Lee, Bum Suk Zhao]
         publisher: Sci. Adv. 6, eaaz0682
         journal: Sci. Adv. 6, eaaz0682
+        summary: "**Lee Yeong Kim**<sup>†</sup>, Byung Gwun Jin<sup>†</sup>, Tae Woo Kim, Ju Hyeon Lee, and Bum Suk Zhao<sup>&#42;</sup>"
         date: 2020
         doi: 10.1126/sciadv.aaz0682
       - title: Matter-wave diffraction from a periodic array of half planes
         authors: [Ju Hyeon Lee, "**Lee Yeong Kim**", Yun-Tae Kim, Chang Young Lee, Wieland Schöllkopf, Bum Suk Zhao]
         publisher: "Phys. Rev. Lett. 122, 040401 (Editor's Suggestion)"
         journal: "Phys. Rev. Lett. 122, 040401 (Editor's Suggestion)"
+        summary: "Ju Hyeon Lee<sup>†</sup>, **Lee Yeong Kim**<sup>†</sup>, Yun-Tae Kim, Chang Young Lee, Wieland Schöllkopf<sup>&#42;</sup>, and Bum Suk Zhao<sup>&#42;</sup>"
         date: 2019
         doi: 10.1103/PhysRevLett.122.040401
       - title: Effect of rotational-state-dependent molecular alignment on the optical dipole force
         authors: ["**Lee Yeong Kim**", Ju Hyeon Lee, Hye Ah Kim, Sang Kyu Kwak, Bretislav Friedrich, Bum Suk Zhao]
         publisher: Phys. Rev. A 94, 013428
         journal: Phys. Rev. A 94, 013428
+        summary: "**Lee Yeong Kim**, Ju Hyeon Lee, Hye Ah Kim, Sang Kyu Kwak, Bretislav Friedrich, and Bum Suk Zhao<sup>&#42;</sup>"
         date: 2016
         doi: 10.1103/PhysRevA.94.013428
       - title: Rotational-state-dependent dispersion of molecules by pulsed optical standing waves
         authors: [Xing Nan Sun, "**Lee Yeong Kim**", Bum Suk Zhao, Doo Soo Chung]
         publisher: Phys. Rev. Lett. 115, 223001
         journal: Phys. Rev. Lett. 115, 223001
+        summary: "Xing Nan Sun<sup>†</sup>, **Lee Yeong Kim**<sup>†</sup>, Bum Suk Zhao<sup>&#42;</sup>, and Doo Soo Chung<sup>&#42;</sup>"
         date: 2015
         doi: 10.1103/PhysRevLett.115.223001
+      - summary: "<small>†Equal contribution. &#42;Corresponding author.</small>"
 
     Co-Authored Publications:
       # Publications where I contributed but was not first or co-first author.
