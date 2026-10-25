@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: leeyeongkim.com/my_research/sitemap.xml
+Sitemap: https://leeyeongkim.com/sitemap.xml
