@@ -22,7 +22,7 @@ env:
 
 # TRIGGERS
 on:
-  page_build:
+  # page_build: # disabled: this audits the upstream al-folio demo site (see URLS above) and needs a LIGHTHOUSE_BADGER_TOKEN secret, so it failed on every deploy
   # schedule: # Check your schedule here => https://crontab.guru/
   #   - cron: '55 23 * * 0' # e.g. every Sunday at 23:55
   #
