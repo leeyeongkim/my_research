@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as a **Postdoctoral Researcher** at the Faculty of Physics, University of Vienna, working with Prof. Markus Arndt.
+Started as a **Postdoctoral Researcher** at the Department of Physics, University of Vienna, working with Prof. Markus Arndt.

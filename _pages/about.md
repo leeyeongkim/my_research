@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Researcher, Faculty of Physics, University of Vienna
+subtitle: Postdoctoral Researcher, Department of Physics, University of Vienna
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Faculty of Physics</p>
+    <p>Department of Physics</p>
     <p>University of Vienna</p>
     <p>Vienna, Austria</p>
 
